@@ -35,35 +35,3 @@ to where you cloned/downloaded this repo's files and run:
 ,,,,
 . ./cachemycreds-auto.sh
 ,,,,
-
-#	
-#	  Head over to where ever you downloaded this
-#    repo and run the script - cachemycreds.sh.
-#
-#	  The script will set everything up so that the
-#	next time you enter your usernme and password,
-#	it will get cached, and you will never have to
-#	log in to your guthub to push or pull your repo
-#	agan.
-#
-#	That said, you will need to trigger Git to ask
-#	you for your usename and password one last time
-#	after the scipt is done. So head over to one of
-#	your Github repos after you run the script, pr-
-#	eferabally one where you know will make you sign
-#	in ( like  private one ).
-#
-#	Now, the easiest way that I've found to trigger
-#	Git's login prompt, is to edit a file ( like the
-#	README.md ), add a line to the end of the file,
-#	git add the file, commit it, and then push the
-#	repo.
-#
-#	Hopefully, you'll have to sign in. After you log-
-#	ged in and git pushed the file, you can edit the
-#	file again, remove the line, or whatever was added,
-#	add, commit, and push everything again.
-#
-#	If everything went well, Git would have updated the
-#	repo without asking you to log in.
-#
